@@ -1,0 +1,5 @@
+opencv_annotation --annotations=saida.txt --images=positivas/
+
+opencv_createsamples -info saida.txt -bg negativas.txt -vec vetor.vec -w 24 -h 24
+
+opencv_traincascade -data treinamento -vec vetor.vec -bg negativas.txt -numPos 200 -numNeg 320 -w 24 -h 24 -precalcValBufSize 1024 -precalcIdxBufSize 1024 -numStages 30 -acceptanceRatioBreakValue 1.0e-5

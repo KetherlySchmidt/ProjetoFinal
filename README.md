@@ -13,7 +13,7 @@ Para este projeto foram utilizadas:
 
 O sistema realizar o processamendo de imagem realizando as seguintes etapas:
     🎇Redimencionamento
-
+        
         ![redimencionamento](https://github.com/KetherlySchmidt/ProjetoFinal/blob/master/redimencionamento.jpg)
         
     🎇HSV
